@@ -3,7 +3,14 @@ import UIKit
 let pizzaInInches: Int = 12
 
 var numberOfSlices: Int {
-  return pizzaInInches - 4
+  get {
+    return pizzaInInches - 4
+  }
+//  set {
+//    print("numberOfSlices now has a new value which is \(newValue)")
+//  }
 }
 
-print(numberOfSlices)
+//numberOfSlices = 12
+
+let a = numberOfSlices + 34
